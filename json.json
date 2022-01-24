@@ -1,0 +1,83 @@
+{
+  "wolves": [
+    {
+      "id": 1,
+      "images": {
+        "big": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/big-wolf1.png",
+        "small": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/wolf1.png"
+      }
+    },
+    {
+      "id": 2,
+      "images": {
+        "big": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/big-wolf2.png",
+        "small": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/wolf2.png"
+      }
+    },
+    {
+      "id": 3,
+      "images": {
+        "big": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/big-wolf3.png",
+        "small": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/wolf3.png"
+      }
+    },
+    {
+      "id": 4,
+      "images": {
+        "big": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/big-wolf4.png",
+        "small": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/wolf4.png"
+      }
+    },
+    {
+      "id": 5,
+      "images": {
+        "big": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/big-wolf5.png",
+        "small": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/wolf5.png"
+      }
+    },
+    {
+      "id": 6,
+      "images": {
+        "big": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/big-wolf6.png",
+        "small": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/wolf6.png"
+      }
+    },
+    {
+      "id": 7,
+      "images": {
+        "big": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/big-wolf7.png",
+        "small": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/wolf7.png"
+      }
+    },
+    {
+      "id": 8,
+      "images": {
+        "big": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/big-wolf8.png",
+        "small": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/wolf8.png"
+      }
+    },
+    {
+      "id": 9,
+      "images": {
+        "big": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/big-wolf9.png",
+        "small": "https://wolftracker9eee.blob.core.windows.net/wolfpictures-mock/wolf9.png"
+      }
+    }
+  ],
+  "bird": [
+    {
+      "id": 1,
+      "images": {
+        "big": "https://www.thespruce.com/thmb/rk3DGZLrlgEOprRfSwKqKopUzk4=/2121x1193/smart/filters:no_upscale()/Bird-GettyImages-582446599-58ec5c4d5f9b58ef7e24e7f4.jpg",
+        "small": "images/bird1.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "images": {
+        "big": "images/bird2-big.jpg",
+        "small": "images/bird2-small.jpg"
+      }
+    }
+  ]
+}
