@@ -20,6 +20,9 @@ function Gallery(props) {
 
     const setPreviewImage = (image) => {
         setSelectedImagePreview(image)
+        selectedImagePreview === undefined
+            ? document.body.style.overflow = "hidden"
+            : document.body.style.overflow = "visible";
     }
 
     useEffect(() => {
@@ -56,7 +59,7 @@ function Gallery(props) {
                                         alt={"img"}
                                         className={"g-image"}
                                     />
-                                    <div className={"g-image-hover"}><img src={"/images/Search_Icon.svg"}/></div>
+                                    <div className={"g-image-hover"}><img src={"/imageGallery/images/Search_Icon.svg"}/></div>
                                 </div>)
                         }) : <></>
                     }
