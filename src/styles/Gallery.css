@@ -1,10 +1,9 @@
 .gallery-wrapper {
-    margin-top: 25px;
+    margin-top: 1.4rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    position: relative;
 }
 
 .gallery-wrapper .g-container {
@@ -13,18 +12,19 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 2.5rem;
 }
 
 .g-container .g-title {
     font-size: 2.2rem;
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
 }
 
 .g-container .g-buttons-container {
     display: flex;
-    gap: 40px;
-    margin-bottom: 25px;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
 }
 
 .g-buttons-container .filter-button {
@@ -35,7 +35,6 @@
     cursor: pointer;
     transition: .5s;
 }
-
 
 .g-buttons-container .filter-button.activeButton {
     background-color: deepskyblue;
@@ -83,7 +82,8 @@
     opacity: .8;
 }
 
-.g-image-hover img{
+.g-image-hover img {
     width: 60px;
     height: 60px;
+    fill: white;
 }

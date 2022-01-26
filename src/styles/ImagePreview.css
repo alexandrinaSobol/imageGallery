@@ -1,23 +1,22 @@
-.image-preview-wrapper {
+.image-preview-section {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 200px;
     align-items: center;
-    background-color: rgba(0,0,0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     bottom: 0;
     height: 100vh;
     z-index: 3;
 }
 
-.image-preview-wrapper .i-p-container {
-    height: 85vh;
-    position: relative;
+.image-preview-section .i-p-container {
+    height: 31rem;
     max-width: 61rem;
+    position: relative;
 }
 
-.image-preview-wrapper .i-p-container .i-p-container-figure {
+.i-p-container .i-p-container-figure {
     width: 100%;
     height: 100%;
     position: relative;
@@ -27,15 +26,17 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    overflow-x:hidden;
-    overflow-y:hidden;
 }
 
-.close-symbol{
-    font-size: 1.7rem;
-    color: white;
+.close-symbol-container {
     position: absolute;
-    top: -17px;
-    right: -90px;
+    top: -1rem;
+    right: -5rem;
     cursor: pointer;
+    width: 31px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    color: white;
 }

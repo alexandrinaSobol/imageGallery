@@ -1,8 +1,8 @@
-.header-wrapper {
+.header-section {
     height: 100vh;
 }
 
-.header-wrapper .header-section{
+.header-section .header-section-container{
     display: flex;
     justify-content: center;
     color: white;
@@ -11,7 +11,7 @@
     height: 100%;
 }
 
-.header-section .h-container {
+.header-section-container .h-s-c-description {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -20,13 +20,13 @@
     z-index: 2;
 }
 
-.h-container .h-title {
+.h-s-c-description .description-title {
     margin-top: 0;
     font-weight: 700;
     font-size: 4rem;
 }
 
-.h-container .h-description .h-paragraph {
+.h-s-c-description .description-subtitle .d-s-paragraph {
     font-size: 1.5rem;
 }
 
@@ -34,5 +34,5 @@
     color: white;
     font-size: 1.3rem;
     background-color: deepskyblue;
-    margin-top: 25px;
+    margin-top: 1.6rem;
 }

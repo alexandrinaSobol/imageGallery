@@ -3,18 +3,16 @@ import React, {useState, useEffect} from "react";
 import ImagePreview from "./ImagePreview";
 
 function Gallery(props) {
-
     const {images} = props
     const [currentSelectedKeyWord, setCurrentSelectedKeyWord] = useState(undefined);
     const [currentSelectedImages, setCurrentSelectedImages] = useState([]);
     const [selectedImagePreview, setSelectedImagePreview] = useState(undefined);
 
     const getKeywordImages = (keyword) => {
-        if (keyword === undefined) {
-            setCurrentSelectedImages([].concat.apply([], Object.values(images)))
-        } else {
-            setCurrentSelectedImages(images[keyword])
-        }
+        keyword === undefined
+            ? setCurrentSelectedImages([].concat.apply([], Object.values(images)))
+            : setCurrentSelectedImages(images[keyword]);
+
         setCurrentSelectedKeyWord(keyword)
     }
 
@@ -38,11 +36,11 @@ function Gallery(props) {
                         className={`btn filter-button ${currentSelectedKeyWord === undefined ? "activeButton" : ""}`}
                         onClick={() => getKeywordImages()}>all
                     </button>
-                    {Object.entries(images).map((key, index) => {
+                    {Object.entries(images).map((item, index) => {
                         return (
                             <button
-                                className={`btn filter-button ${currentSelectedKeyWord === key[0] ? "activeButton" : ""}`}
-                                onClick={() => getKeywordImages(key[0])}> {key[0]}
+                                className={`btn filter-button ${currentSelectedKeyWord === item[0] ? "activeButton" : ""}`}
+                                onClick={() => getKeywordImages(item[0])}> {item[0]}
                             </button>
                         )
                     })}

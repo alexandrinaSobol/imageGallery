@@ -4,7 +4,6 @@ import Gallery from "./Gallery";
 import '../styles/Home.css'
 
 function Home() {
-
     const [images, setImages] = useState({});
 
     const header = {
@@ -35,7 +34,6 @@ function Home() {
     useEffect(() => {
         getImages()
     }, [])
-
 
     return (
         <div className={"home-wrapper"}>
